@@ -1,0 +1,293 @@
+<mxfile host="Electron" modified="2023-10-21T05:10:43.890Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.7.5 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" etag="DAZfwV7CehVSbKi6QTh8" version="21.7.5" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1562" dy="909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--0" value="&quot;Продажи&quot; (Sales)" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="60" y="40" width="230" height="320" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--2" value="ID заказа (Order_ID)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+          <mxGeometry y="26" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--3" value="Время продажи (Sale_Time)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+          <mxGeometry y="52" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KQoIIr9sLk1v1GStxZdK-7" value="Название товара (Product_Name)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+          <mxGeometry y="78" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KQoIIr9sLk1v1GStxZdK-12" value="Цена (Price)" style="text;whiteSpace=wrap;html=1;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+          <mxGeometry y="104" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KQoIIr9sLk1v1GStxZdK-13" value="Бренд (Brand)" style="text;whiteSpace=wrap;html=1;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+          <mxGeometry y="130" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KQoIIr9sLk1v1GStxZdK-14" value="Модель товара (Product_Model)" style="text;whiteSpace=wrap;html=1;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+          <mxGeometry y="160" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KQoIIr9sLk1v1GStxZdK-15" value="Категория (Category)" style="text;whiteSpace=wrap;html=1;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+          <mxGeometry y="190" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KQoIIr9sLk1v1GStxZdK-16" value="Cookies покупателя (Customer_Cookies)" style="text;whiteSpace=wrap;html=1;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+          <mxGeometry y="220" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KQoIIr9sLk1v1GStxZdK-17" value="Сумма (Amount)" style="text;whiteSpace=wrap;html=1;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+          <mxGeometry y="250" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KQoIIr9sLk1v1GStxZdK-74" value="ID товара (Product_ID)" style="text;whiteSpace=wrap;html=1;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+          <mxGeometry y="290" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KQoIIr9sLk1v1GStxZdK-54" value="&quot;Личные кабинеты покупателей&quot; &#xa;(Customer_Accounts)" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="60" y="390" width="240" height="280" as="geometry">
+            <mxRectangle x="60" y="390" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KQoIIr9sLk1v1GStxZdK-57" value="&#xa;ID личного кабинета (Account_ID)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="KQoIIr9sLk1v1GStxZdK-54" vertex="1">
+          <mxGeometry y="20" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KQoIIr9sLk1v1GStxZdK-58" value="Cookies покупателя (Customer_Cookies)" style="text;whiteSpace=wrap;html=1;" parent="KQoIIr9sLk1v1GStxZdK-54" vertex="1">
+          <mxGeometry y="70" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KQoIIr9sLk1v1GStxZdK-60" value="ФИО (Full_Name)" style="text;whiteSpace=wrap;html=1;" parent="KQoIIr9sLk1v1GStxZdK-54" vertex="1">
+          <mxGeometry y="100" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KQoIIr9sLk1v1GStxZdK-61" value="Пол (Gender)" style="text;whiteSpace=wrap;html=1;" parent="KQoIIr9sLk1v1GStxZdK-54" vertex="1">
+          <mxGeometry y="130" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KQoIIr9sLk1v1GStxZdK-62" value="Дата рождения (Date_of_Birth)" style="text;whiteSpace=wrap;html=1;" parent="KQoIIr9sLk1v1GStxZdK-54" vertex="1">
+          <mxGeometry y="160" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KQoIIr9sLk1v1GStxZdK-63" value="Электронная почта (Email)" style="text;whiteSpace=wrap;html=1;" parent="KQoIIr9sLk1v1GStxZdK-54" vertex="1">
+          <mxGeometry y="190" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KQoIIr9sLk1v1GStxZdK-64" value="Телефон (Phone)" style="text;whiteSpace=wrap;html=1;" parent="KQoIIr9sLk1v1GStxZdK-54" vertex="1">
+          <mxGeometry y="230" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KQoIIr9sLk1v1GStxZdK-65" value="Сущность &quot;Промо-акции&quot; (Promotions)" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="60" y="720" width="240" height="290" as="geometry">
+            <mxRectangle x="60" y="390" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KQoIIr9sLk1v1GStxZdK-66" value="&#xa;ID личного кабинета (Account_ID)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="KQoIIr9sLk1v1GStxZdK-65" vertex="1">
+          <mxGeometry y="20" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KQoIIr9sLk1v1GStxZdK-67" value="&#xa;ID промо-акции (Promotion_ID)&#xa;&#xa;" style="text;whiteSpace=wrap;html=1;" parent="KQoIIr9sLk1v1GStxZdK-65" vertex="1">
+          <mxGeometry y="70" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KQoIIr9sLk1v1GStxZdK-68" value="ID товара (Product_ID)" style="text;whiteSpace=wrap;html=1;" parent="KQoIIr9sLk1v1GStxZdK-65" vertex="1">
+          <mxGeometry y="120" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KQoIIr9sLk1v1GStxZdK-69" value="Дата начала промо (Start_Date)" style="text;whiteSpace=wrap;html=1;" parent="KQoIIr9sLk1v1GStxZdK-65" vertex="1">
+          <mxGeometry y="150" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KQoIIr9sLk1v1GStxZdK-70" value="Дата рождения (Date_of_Birth)" style="text;whiteSpace=wrap;html=1;" parent="KQoIIr9sLk1v1GStxZdK-65" vertex="1">
+          <mxGeometry y="180" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KQoIIr9sLk1v1GStxZdK-71" value="Дата окончания промо (End_Date)" style="text;whiteSpace=wrap;html=1;" parent="KQoIIr9sLk1v1GStxZdK-65" vertex="1">
+          <mxGeometry y="210" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KQoIIr9sLk1v1GStxZdK-72" value="Размер скидки (Discount_Size)" style="text;whiteSpace=wrap;html=1;" parent="KQoIIr9sLk1v1GStxZdK-65" vertex="1">
+          <mxGeometry y="250" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KQoIIr9sLk1v1GStxZdK-87" value="Core_Customer_Sales" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="880" y="10" width="240" height="336" as="geometry">
+            <mxRectangle x="60" y="390" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KQoIIr9sLk1v1GStxZdK-88" value="&#xa;ID личного кабинета (Account_ID)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="KQoIIr9sLk1v1GStxZdK-87" vertex="1">
+          <mxGeometry y="20" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KQoIIr9sLk1v1GStxZdK-89" value="Cookies покупателя (Customer_Cookies)" style="text;whiteSpace=wrap;html=1;" parent="KQoIIr9sLk1v1GStxZdK-87" vertex="1">
+          <mxGeometry y="70" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KQoIIr9sLk1v1GStxZdK-90" value="ФИО (Full_Name)" style="text;whiteSpace=wrap;html=1;" parent="KQoIIr9sLk1v1GStxZdK-87" vertex="1">
+          <mxGeometry y="100" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KQoIIr9sLk1v1GStxZdK-91" value="Пол (Gender)" style="text;whiteSpace=wrap;html=1;" parent="KQoIIr9sLk1v1GStxZdK-87" vertex="1">
+          <mxGeometry y="130" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KQoIIr9sLk1v1GStxZdK-92" value="Дата рождения (Date_of_Birth)" style="text;whiteSpace=wrap;html=1;" parent="KQoIIr9sLk1v1GStxZdK-87" vertex="1">
+          <mxGeometry y="160" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KQoIIr9sLk1v1GStxZdK-93" value="Электронная почта (Email)" style="text;whiteSpace=wrap;html=1;" parent="KQoIIr9sLk1v1GStxZdK-87" vertex="1">
+          <mxGeometry y="190" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KQoIIr9sLk1v1GStxZdK-94" value="Телефон (Phone)" style="text;whiteSpace=wrap;html=1;" parent="KQoIIr9sLk1v1GStxZdK-87" vertex="1">
+          <mxGeometry y="230" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KQoIIr9sLk1v1GStxZdK-95" value="Название товара (Product_Name)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="KQoIIr9sLk1v1GStxZdK-87" vertex="1">
+          <mxGeometry y="270" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="JDsBrTvlCNx9yT8jEmw5-9" value="Сумма (Amount)" style="text;whiteSpace=wrap;html=1;" parent="KQoIIr9sLk1v1GStxZdK-87" vertex="1">
+          <mxGeometry y="296" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JDsBrTvlCNx9yT8jEmw5-0" value="Mart_Customer_Analytics" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="490" y="350" width="240" height="370" as="geometry">
+            <mxRectangle x="60" y="390" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JDsBrTvlCNx9yT8jEmw5-1" value="&#xa;ID личного кабинета (Account_ID)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="JDsBrTvlCNx9yT8jEmw5-0" vertex="1">
+          <mxGeometry y="20" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JDsBrTvlCNx9yT8jEmw5-4" value="Пол (Gender)" style="text;whiteSpace=wrap;html=1;" parent="JDsBrTvlCNx9yT8jEmw5-0" vertex="1">
+          <mxGeometry y="70" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JDsBrTvlCNx9yT8jEmw5-5" value="Категория возраста" style="text;whiteSpace=wrap;html=1;" parent="JDsBrTvlCNx9yT8jEmw5-0" vertex="1">
+          <mxGeometry y="100" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JDsBrTvlCNx9yT8jEmw5-6" value="Электронная почта (Email)" style="text;whiteSpace=wrap;html=1;" parent="JDsBrTvlCNx9yT8jEmw5-0" vertex="1">
+          <mxGeometry y="130" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cgq-GnrCAWINxvIh_VWa-0" value="Телефон (Phone)" style="text;whiteSpace=wrap;html=1;" parent="JDsBrTvlCNx9yT8jEmw5-0" vertex="1">
+          <mxGeometry y="170" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cgq-GnrCAWINxvIh_VWa-2" value="Товар, который чаще всего покупал клиент за последний месяц" style="text;whiteSpace=wrap;html=1;" parent="JDsBrTvlCNx9yT8jEmw5-0" vertex="1">
+          <mxGeometry y="210" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cgq-GnrCAWINxvIh_VWa-3" value="Бренд и категория товаров, которые чаще всего покупал клиент" style="text;whiteSpace=wrap;html=1;" parent="JDsBrTvlCNx9yT8jEmw5-0" vertex="1">
+          <mxGeometry y="250" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cgq-GnrCAWINxvIh_VWa-4" value="Сумма, потраченная клиентом за месяц" style="text;whiteSpace=wrap;html=1;" parent="JDsBrTvlCNx9yT8jEmw5-0" vertex="1">
+          <mxGeometry y="290" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cgq-GnrCAWINxvIh_VWa-5" value="Количество товаров, купленных со скидкой" style="text;whiteSpace=wrap;html=1;" parent="JDsBrTvlCNx9yT8jEmw5-0" vertex="1">
+          <mxGeometry y="330" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JDsBrTvlCNx9yT8jEmw5-14" value="RAW" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="100" y="1140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JDsBrTvlCNx9yT8jEmw5-15" value="CORE" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="950" y="1130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JDsBrTvlCNx9yT8jEmw5-16" value="MART" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="525" y="1010" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="COVLW4JXiHytEF5L1Nmi-0" value="Core_Sales" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="880" y="404" width="240" height="336" as="geometry">
+            <mxRectangle x="60" y="390" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="COVLW4JXiHytEF5L1Nmi-1" value="&#xa;ID личного кабинета (Account_ID)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="COVLW4JXiHytEF5L1Nmi-0" vertex="1">
+          <mxGeometry y="20" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="COVLW4JXiHytEF5L1Nmi-10" value="ID заказа (Order_ID)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="COVLW4JXiHytEF5L1Nmi-0" vertex="1">
+          <mxGeometry y="70" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="COVLW4JXiHytEF5L1Nmi-11" value="Время продажи (Sale_Time)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="COVLW4JXiHytEF5L1Nmi-0" vertex="1">
+          <mxGeometry y="96" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="COVLW4JXiHytEF5L1Nmi-12" value="Название товара (Product_Name)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="COVLW4JXiHytEF5L1Nmi-0" vertex="1">
+          <mxGeometry y="122" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="COVLW4JXiHytEF5L1Nmi-18" value="Сумма (Amount)" style="text;whiteSpace=wrap;html=1;" parent="COVLW4JXiHytEF5L1Nmi-0" vertex="1">
+          <mxGeometry y="148" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="COVLW4JXiHytEF5L1Nmi-17" value="Cookies покупателя (Customer_Cookies)" style="text;whiteSpace=wrap;html=1;" parent="COVLW4JXiHytEF5L1Nmi-0" vertex="1">
+          <mxGeometry y="188" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="COVLW4JXiHytEF5L1Nmi-16" value="Категория (Category)" style="text;whiteSpace=wrap;html=1;" parent="COVLW4JXiHytEF5L1Nmi-0" vertex="1">
+          <mxGeometry y="218" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="COVLW4JXiHytEF5L1Nmi-15" value="Модель товара (Product_Model)" style="text;whiteSpace=wrap;html=1;" parent="COVLW4JXiHytEF5L1Nmi-0" vertex="1">
+          <mxGeometry y="248" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="COVLW4JXiHytEF5L1Nmi-14" value="Бренд (Brand)" style="text;whiteSpace=wrap;html=1;" parent="COVLW4JXiHytEF5L1Nmi-0" vertex="1">
+          <mxGeometry y="278" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="COVLW4JXiHytEF5L1Nmi-13" value="Цена (Price)" style="text;whiteSpace=wrap;html=1;" parent="COVLW4JXiHytEF5L1Nmi-0" vertex="1">
+          <mxGeometry y="308" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="COVLW4JXiHytEF5L1Nmi-19" value="Core-Promotions" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="880" y="800" width="240" height="210" as="geometry">
+            <mxRectangle x="60" y="390" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="COVLW4JXiHytEF5L1Nmi-21" value="&#xa;ID промо-акции (Promotion_ID)&#xa;&#xa;" style="text;whiteSpace=wrap;html=1;" parent="COVLW4JXiHytEF5L1Nmi-19" vertex="1">
+          <mxGeometry y="20" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="COVLW4JXiHytEF5L1Nmi-22" value="ID товара (Product_ID)" style="text;whiteSpace=wrap;html=1;" parent="COVLW4JXiHytEF5L1Nmi-19" vertex="1">
+          <mxGeometry y="70" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="COVLW4JXiHytEF5L1Nmi-23" value="Дата начала промо (Start_Date)" style="text;whiteSpace=wrap;html=1;" parent="COVLW4JXiHytEF5L1Nmi-19" vertex="1">
+          <mxGeometry y="100" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="COVLW4JXiHytEF5L1Nmi-25" value="Дата окончания промо (End_Date)" style="text;whiteSpace=wrap;html=1;" parent="COVLW4JXiHytEF5L1Nmi-19" vertex="1">
+          <mxGeometry y="130" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="COVLW4JXiHytEF5L1Nmi-26" value="Размер скидки (Discount_Size)" style="text;whiteSpace=wrap;html=1;" parent="COVLW4JXiHytEF5L1Nmi-19" vertex="1">
+          <mxGeometry y="170" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="COVLW4JXiHytEF5L1Nmi-35" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--0" target="JDsBrTvlCNx9yT8jEmw5-0" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="870" y="740" as="sourcePoint" />
+            <mxPoint x="920" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="COVLW4JXiHytEF5L1Nmi-36" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KQoIIr9sLk1v1GStxZdK-54" target="JDsBrTvlCNx9yT8jEmw5-0" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="870" y="740" as="sourcePoint" />
+            <mxPoint x="920" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="COVLW4JXiHytEF5L1Nmi-37" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KQoIIr9sLk1v1GStxZdK-65" target="JDsBrTvlCNx9yT8jEmw5-0" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="870" y="740" as="sourcePoint" />
+            <mxPoint x="920" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="COVLW4JXiHytEF5L1Nmi-40" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="COVLW4JXiHytEF5L1Nmi-0" target="JDsBrTvlCNx9yT8jEmw5-0" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="870" y="740" as="sourcePoint" />
+            <mxPoint x="920" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ce65lgaZX_cejrWgJQMd-0" value="Core_Products" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="590" width="240" height="336" as="geometry">
+            <mxRectangle x="60" y="390" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ce65lgaZX_cejrWgJQMd-10" value="ID товара (Product_ID)" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="600" y="30" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ce65lgaZX_cejrWgJQMd-11" value="Cookies покупателя (Customer_Cookies)" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="600" y="70" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ce65lgaZX_cejrWgJQMd-12" value="ФИО (Full_Name)" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="600" y="110" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ce65lgaZX_cejrWgJQMd-13" value="Пол (Gender)" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="600" y="150" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ce65lgaZX_cejrWgJQMd-14" value="Дата рождения (Date_of_Birth)" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="600" y="200" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ce65lgaZX_cejrWgJQMd-15" value="Электронная почта (Email)" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="600" y="250" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ce65lgaZX_cejrWgJQMd-16" value="Телефон (Phone)" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="600" y="300" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ce65lgaZX_cejrWgJQMd-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.965;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Ce65lgaZX_cejrWgJQMd-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="590" as="sourcePoint" />
+            <mxPoint x="920" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ce65lgaZX_cejrWgJQMd-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.562;entryY=0.007;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JDsBrTvlCNx9yT8jEmw5-9" target="COVLW4JXiHytEF5L1Nmi-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="590" as="sourcePoint" />
+            <mxPoint x="570" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ce65lgaZX_cejrWgJQMd-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="COVLW4JXiHytEF5L1Nmi-19" target="COVLW4JXiHytEF5L1Nmi-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="590" as="sourcePoint" />
+            <mxPoint x="570" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
